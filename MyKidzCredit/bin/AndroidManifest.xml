@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mykidzcredit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loginpic"
+        android:label="@string/app_name" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name=".ParentHomePage"
+            android:label="@string/title_activity_parent_home_page" >
+        </activity>
+        <activity
+            android:name=".KidHomePage"
+            android:label="@string/title_activity_kid_home_page" >
+        </activity>
+        <activity
+            android:name=".EditKid"
+            android:label="@string/title_activity_edit_kid" >
+        </activity>
+        <activity
+            android:name=".AddKid"
+            android:label="@string/title_activity_add_kid" >
+        </activity>
+        <activity
+            android:name=".AddTask"
+            android:label="@string/title_activity_add_task" >
+        </activity>
+        <activity
+            android:name=".EditTask"
+            android:label="@string/title_activity_edit_task" >
+        </activity>
+        <activity
+            android:name=".EditForKid"
+            android:label="@string/title_activity_edit_for_kid" >
+        </activity>
+        <activity
+            android:name=".AddTaskKid"
+            android:label="@string/title_activity_add_task_kid" >
+        </activity>
+        <activity
+            android:name=".AssignTask"
+            android:label="@string/title_activity_assign_task" >
+        </activity>
+        <activity
+            android:name=".TaskList"
+            android:label="@string/title_activity_task_list" >
+        </activity>
+        <activity
+            android:name=".MyTaskList"
+            android:label="@string/title_activity_my_task_list" >
+        </activity>
+        <activity
+            android:name=".KidInfo"
+            android:label="@string/title_activity_kid_info" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".UpdateTask"
+            android:label="@string/title_activity_update_task" >
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".KidView"
+            android:label="@string/title_activity_kid_view" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/myshape">
+
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	>
+	
+	<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+    
+<TextView 
+    android:id="@+id/TextView1" 
+    android:text="Edit My Name"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp"
+	android:layout_marginLeft="15dp" />
+
+<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+    
+<EditText 
+    android:id="@+id/kidName" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp" 
+	android:layout_marginLeft="15dp"/>
+
+
+
+
+<LinearLayout 
+              android:id="@+id/ll_root"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/ll_row1"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="editKid"
+            android:text="Edit My Name" />
+
+        
+        
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addTask"
+            android:text="Add A New Task" />
+
+    </LinearLayout>
+<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+    
+<Button 
+    android:id="@+id/button4" android:text="View My Task List"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp" 
+	android:layout_marginLeft="110dp"
+	android:layout_centerInParent="true"
+	android:onClick="showTaskList"/>
+</LinearLayout>
+</LinearLayout>
+
+
+
+	
+	
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		

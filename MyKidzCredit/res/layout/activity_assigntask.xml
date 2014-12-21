@@ -1,0 +1,57 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/myshape">
+
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	>
+	
+	<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView android:id="@+id/classname" android:text="Task Status"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="20dp" />
+			
+	    <RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<!-- RadioButton is a two state button that can be checked or unchecked. 
+					The radio button cannot be unchecked by the user (Clear the RadioGroup to 
+					remove the checked state instead). -->
+				<RadioButton android:id="@+id/radio01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Complete" />
+
+				<RadioButton android:id="@+id/radio02"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Incomplete" />
+			</RadioGroup>
+	    
+    
+<TextView android:id="@+id/classname2" android:text="Enter Score"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="20dp" />
+
+			
+			<EditText android:id="@+id/taskScore" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="15dp" android:layout_marginRight="15dp" />
+			
+			
+			
+			<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			
+			<Button android:text="Add Score" android:id="@+id/buttonassign"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textSize="20dp" android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:onClick="addNewScore" />
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		

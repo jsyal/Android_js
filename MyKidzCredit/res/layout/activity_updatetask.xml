@@ -1,0 +1,44 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/myshape">
+
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	>
+	
+	<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView android:id="@+id/classname" android:text="Task Status"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="20dp" />
+			
+	    <RadioGroup android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+				<!-- RadioButton is a two state button that can be checked or unchecked. 
+					The radio button cannot be unchecked by the user (Clear the RadioGroup to 
+					remove the checked state instead). -->
+				<RadioButton android:id="@+id/radio01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Complete" />
+
+				<RadioButton android:id="@+id/radio02"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Incomplete" />
+			</RadioGroup>
+	    
+   			<LinearLayout 
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			
+			<Button android:text="Send for Approval" android:id="@+id/buttonsend"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textSize="20dp" android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp" />
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		</LinearLayout>
+		
